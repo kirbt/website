@@ -1,9 +1,4 @@
 
-#title {
-  text-align: center;
-  color: #4d4b48;
-}
-
 section#characters {
   display: flex;
   flex-direction: row;
