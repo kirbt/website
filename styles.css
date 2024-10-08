@@ -1,0 +1,103 @@
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  color: antiquewhite;
+  font-size: 30px;
+  margin: 0px;
+  text-align: center;
+}
+
+#ribbon {
+  width: 100%;
+  background-color: #4d4b48;
+  padding: 5px;
+  margin-top: 0px;
+  box-shadow:0px 30px 50px 0px rgb(204, 196, 186);
+  position: fixed;
+  top:0;
+}
+
+#ribbon + section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#ribbon button {
+  background-color: #4d4b48;
+  color: antiquewhite;
+  width: 10%;
+  height: 30px;
+  font-family: "Roboto Mono", monospace;
+}
+
+#introduction {
+  width: 70%;
+  background-color: #e4ddd9;
+  margin: 50px;
+  box-shadow:20px 20px 50px 10px rgb(206, 192, 194);
+  border-top: 5px solid rgb(138, 91, 59);
+  border-bottom: 5px solid rgb(138, 91, 59);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#introduction > img {
+  height: auto;
+  width: 30%;
+  border-radius: 50%;
+  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow:10px 10px 10px 5px rgb(141, 133, 122);
+}
+
+#introduction > section {
+  width:50%;
+  /**
+  * height:70%;
+  **/
+  margin: 20px;
+}
+
+#introduction span {
+  font-weight: bolder;
+}
+
+#socials {
+  background-image: url("https://fixthephoto.com/images/content/newspaper-texture-41613661929.jpg");
+  background-color: #e4ddd9;
+  background-blend-mode: overlay;
+  width:100%;
+  height: auto;
+  margin: 50px;
+  margin-top: 100px;
+  padding: 50px;
+  padding-top: 0px;
+  box-shadow:20px 20px 50px 10px rgb(206, 192, 194);
+  border-top: 5px solid rgb(138, 91, 59);
+  border-bottom: 5px solid rgb(138, 91, 59);
+}
+
+#socials > h2 {
+  color:rgb(81, 77, 75);
+}
+
+#socials > section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#socials img {
+  width: 100px;
+  height: auto;
+  margin: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

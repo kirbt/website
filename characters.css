@@ -1,0 +1,39 @@
+
+#title {
+  text-align: center;
+  color: #4d4b48;
+}
+
+section#characters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px;
+  justify-content: space-evenly;
+}
+
+.character-card {
+  height: 350px;
+  width: 300px;
+  background-color: antiquewhite;
+  margin: 20px;
+  box-shadow:0px 10px 5px 2px rgb(179, 174, 180);
+  text-transform: uppercase;
+}
+
+.character-card > h2 {
+  font-size: large;
+  text-align: center;
+}
+
+.character-card > img {
+  width: 200px;
+  height: auto;
+  padding: 50px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.character-card > p {
+  text-align: center;
+}
