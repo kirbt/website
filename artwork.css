@@ -1,4 +1,6 @@
-
+h2 {
+  text-align: center;
+}
 #animations {
   background-color: rgb(96, 70, 76);
   padding: 30px;
@@ -42,7 +44,7 @@
 
 .content-warning img {
   filter: grayscale(100%) blur(10px);
-  transition: filter 0.5s ease-in-out;
+  transition: filter 0.5s ease-out;
 }
 
 .content-warning:hover img {
@@ -61,13 +63,13 @@
   text-align: center;
   pointer-events: none;
   z-index: 1;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-out;
 }
 
 .content-warning:hover > section {
   opacity: 0;
 }
 
-img {
+#art img, #animation img {
   box-shadow:5px 5px 10px 0px rgb(88, 78, 79);
 }

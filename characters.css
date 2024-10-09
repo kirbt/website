@@ -32,3 +32,14 @@ section#characters {
 .character-card > p {
   text-align: center;
 }
+
+nav {
+  width: 100%;
+  background-color: #4d4b48;
+  padding: 5px;
+  margin-top: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}

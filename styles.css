@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto Mono", monospace;
+  overflow-x: hidden;
+  width:fit-content
 }
 
 #title {
@@ -14,7 +16,7 @@ h1 {
   text-align: center;
 }
 
-#ribbon {
+nav {
   width: 100%;
   background-color: #4d4b48;
   padding: 5px;
@@ -25,7 +27,7 @@ h1 {
   z-index: 9999;
 }
 
-#ribbon::before {
+nav::before {
   content: '';
   position: absolute;
   top: 0;
@@ -33,12 +35,12 @@ h1 {
   width: 100%;
   height: 100%;
   box-shadow: 0 4px 20px 10px rgba(58, 54, 57, 0.5); /* Adjust shadow as needed */
-  mix-blend-mode: multiply; /* Apply blending mode */
-  pointer-events: none; /* Ensure it doesn't interfere with other content */
-  z-index: -1; /* Position the shadow below the content */
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  z-index: -1;
 }
 
-#ribbon + section {
+nav + section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -84,9 +86,9 @@ h1 {
   background-image: url("https://fixthephoto.com/images/content/newspaper-texture-41613661929.jpg");
   background-color: #e4ddd9;
   background-blend-mode: overlay;
-  width:100%;
+  width:90%;
   height: auto;
-  margin: 50px;
+  margin: 0 auto;
   margin-top: 100px;
   padding: 50px;
   padding-top: 0px;
@@ -113,7 +115,7 @@ h1 {
   margin-bottom: 0px;
 }
 
-#ribbon button {
+nav button {
   background-color: #4d4b48;
   color: antiquewhite;
   width: 10%;
@@ -122,6 +124,6 @@ h1 {
   transition: background-color 0.1s ease-in-out;
 }
 
-#ribbon button:hover {
+nav button:hover {
   background-color: #7b7575;
 }
